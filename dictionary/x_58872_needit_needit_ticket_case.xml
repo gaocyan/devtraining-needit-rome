@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Needit Ticket Case" max_length="40" name="x_58872_needit_needit_ticket_case" type="collection">
+        <element label="recipient1" max_length="32" name="u_recipient_1" reference="sys_user" type="reference"/>
+        <element label="recipient2" max_length="32" name="u_recipient_2" reference="sys_user" type="reference"/>
+        <element label="recipient3" max_length="32" name="u_recipient_3" reference="sys_user" type="reference"/>
+        <element label="selfcomment" max_length="40" name="u_selfcomment" type="string"/>
+    </element>
+</database>
